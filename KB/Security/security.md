@@ -1,12 +1,17 @@
 ---
-date updated: '2021-04-28T13:56:47-05:00'
+aliases:
+  - Security
+tags: []
 
+title: Security
+linter-yaml-title-alias: Security
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:35.917
 ---
 
 # Security
 
 Security is an incredibly broad topic with many subtopics.
-
 
 ## Domains
 

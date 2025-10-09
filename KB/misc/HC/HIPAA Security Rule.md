@@ -1,9 +1,12 @@
 ---
-date updated: '2021-07-28T15:30:15-05:00'
-aliases: [ 'security rule']
-tags: 
-  - '#HIPAA'
+aliases:
+  - 'security rule'
+tags:
+  - 'HIPAA'
 
+title: HIPAA Security Rule
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:35.823
 ---
 
 # HIPAA Security Rule

@@ -1,13 +1,19 @@
 ---
-date updated: '2021-03-16T03:57:31-05:00'
+aliases:
+  - Upstream Setup
+tags: []
 
+title: Upstream Setup
+linter-yaml-title-alias: Upstream Setup
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:35.465
 ---
 
 # Upstream Setup
 
 If you want to use this vault as a [[git]] upstream for injecting changes to your own vault, follow along:
 
-1. Create a fork of the source repository.  This is likely [here](https://github.com/infrastructurebuilder/release-engineering-vault)
+1. Create a fork of the source repository. This is likely [here](https://github.com/infrastructurebuilder/release-engineering-vault)
 2. Clone your fork locally
 3. Change directory into your local clone.
 4. `git remote add upstream git@github.com:infrastructurebuilder/release-engineering.git`

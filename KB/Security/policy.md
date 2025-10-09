@@ -1,6 +1,12 @@
 ---
-date updated: '2021-07-28T15:02:37-05:00'
+aliases:
+  - Policy
+tags: []
 
+title: Policy
+linter-yaml-title-alias: Policy
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:35.926
 ---
 
 # Policy

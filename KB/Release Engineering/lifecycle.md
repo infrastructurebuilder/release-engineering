@@ -1,6 +1,12 @@
 ---
-date updated: '2021-04-21T12:10:28-05:00'
+aliases:
+  - Lifecycle
+tags: []
 
+title: Lifecycle
+linter-yaml-title-alias: Lifecycle
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:36.203
 ---
 
 # Lifecycle
@@ -21,7 +27,7 @@ Specific to this discussion, the lifecycle of many software [[artifact|artifacts
     changed -->|Discard| destroy;
 ```
 
-1. Non-existent.  Nothing to build exists.
+1. Non-existent. Nothing to build exists.
 2. Existent but not valid or valuable (e.g. an empty repository or document)
 3. Existent and _possibly_ valuable (perhaps because it's being worked on, but the value is unknown at this time)
 4. Valuable (some known set of [[gatekeeping]] criteria have been met)
@@ -32,11 +38,12 @@ Specific to this discussion, the lifecycle of many software [[artifact|artifacts
 
 Any sort of [[artifact]] can and will transition through these states, and often many more-specific ones.
 
-- A document will be created,  updated, edited, accepted, reviewed, and eventually have some indicator made of its state.
+- A document will be created, updated, edited, accepted, reviewed, and eventually have some indicator made of its state.
 - A software repository will be able to be examined and found to be valuable and this have that state saved, perhaps through a [[release]].
+- Some graphic asset might be concepted, initially created, and then revised many times before being physically printed.
 
 ## Outside the Lifecycle
 
-It should be noted that what is generally considered a build does not _only_ have to be part of this lifecycle.  There might be additional intermittent tasks that are not directly relevant to the production of versions.   However, as they are not prescriptive in the [[lifecycle]], they are essentially considered one-offs.  Usually, these are ignored during the [[release]] process to produce an immutable [[artifact]].
+It should be noted that what is generally considered a build does not _only_ have to be part of this lifecycle. There might be additional intermittent tasks that are not directly relevant to the production of versions. However, as they are not prescriptive in the [[lifecycle]], they are essentially considered one-offs. Usually, these are ignored during the [[release]] process of producing an immutable [[artifact]].
 
-An example of this is the "clean" lifecycle state.  This tends to exist in builds to provide the executing user with the ability to start from an untarnished and probably more well-defined state prior to beginning the lifecycle.
+An example of this is the "[[clean phase|clean]]" lifecycle phase. This tends to exist in builds to provide the executing user with the ability to start from an untarnished and probably more well-defined state prior to beginning of some more complex, important, or just tangential lifecycle.

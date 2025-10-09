@@ -1,8 +1,10 @@
 ---
-date updated: 2021-10-22 05:57
 tags:
-  - '#HIPAA'
+  - 'HIPAA'
 
+title: HIPAA
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:35.816
 ---
 
 # HIPAA
@@ -13,5 +15,4 @@ Compliance with HIPAA mandates is usually a condition of continued employment wi
 
 - [[HIPAA Privacy Rule]]
 - [[HIPAA Security Rule]]
-
 

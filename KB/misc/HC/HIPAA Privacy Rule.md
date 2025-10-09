@@ -1,9 +1,12 @@
 ---
-date updated: '2021-07-28T15:29:46-05:00'
-aliases: [ 'Privacy Rule']
-tags: 
-  - '#HIPAA'
+aliases:
+  - 'Privacy Rule'
+tags:
+  - 'HIPAA'
 
+title: HIPAA Privacy Rule
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:35.835
 ---
 
 # HIPAA Privacy Rule

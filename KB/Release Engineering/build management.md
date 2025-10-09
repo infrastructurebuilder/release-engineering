@@ -1,6 +1,12 @@
 ---
-date updated: '2021-04-28T13:56:29-05:00'
+aliases:
+  - Build Management
+tags: []
 
+title: Build Management
+linter-yaml-title-alias: Build Management
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:36.496
 ---
 
 # Build Management
@@ -9,6 +15,6 @@ Build management is the discipline concerned with the [[build|process]] that pro
 
 # What
 
-At its simplest, a build is a process.  The result of that process, _should it succeed_, is [probably] an [[artifact|artifact]].
+At its simplest, a build is a process. The result of that process, _should it succeed_, is [probably] an [[artifact|artifact]].
 
 The actual representation and content of that artifact are very dependent on the build itself, including the source, language, and mechanisms employed to perform the build.

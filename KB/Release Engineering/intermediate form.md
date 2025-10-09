@@ -1,30 +1,34 @@
 ---
-date updated: 2021-03-16T03:56:07-05:00
+aliases:
+  - Intermediate Form Releases
 tags:
-  - release-engineering
   - dependencies
+  - release-engineering
+title: Intermediate Form Releases
+linter-yaml-title-alias: Intermediate Form Releases
+date created: 2025-10-09T07:26:55.000
+date modified: 2025-10-09T07:30:36.224
 ---
 
 # Intermediate Form Releases
 
-
-Most intermediate forms are best stored in some type of [[artifact repository]].  This allows the intermediate form to be used from a trusted location.
+Most intermediate forms are best stored in some type of [[artifact repository]]. This allows the intermediate form to be used from a trusted location.
 
 ## Why Intermediate Forms?
 
-The intermediate form of an [[artifact]] is one that has had a [[build]] (and possibly a [[release]]) action applied to it, producing some secondary resultant artifact.  Contrast this with a [[tag release]].  
+The intermediate form of an [[artifact]] is one that has had a [[build]] (and possibly a [[release]]) action applied to it, producing some secondary resultant artifact. Contrast this with a [[tag release]].  
 
 Since it has gone through all the build [[gatekeeping]] operations, certain statements can be made about the intermediate form without forcing a repeat of the [[build]] that produced it -- it was produced by some build, probably detectable through a tag, and thus followed the criteria of _that tag's build_.
 
-These gatekeeping operations are the total of ascribable quality that can be stated about the artifact.  Assuming that they are [[build#Repeatable|repeatable]], they can be thought of as the beginning of an audit trail on the artifact's provenance and quality.
+These gatekeeping operations are the total of ascribable quality that can be stated about the artifact. Assuming that they are [[build#Repeatable|repeatable]], they can be thought of as the beginning of an audit trail on the artifact's provenance and quality.
 
-It should be noted that the presence of an intermediate form is in no way indicative itself that any rigor was applied.  All such evidence is a combination of events, and documentation of the effects of those events, as well as the method of storage of the result.
+It should be noted that the presence of an intermediate form is in no way indicative itself that any rigor was applied. All such evidence is a combination of events, and documentation of the effects of those events, as well as the method of storage of the result.
 
 ## Examples
 
 Many, possibly even most, languages produce some artifact as an intermediate form.
 
-- Java produces the `.jar` (Java Archive) artifact, which is a Zip file with some additional metadata files inside (`META-INF/MANIFEST.MF`).  Similar is the `.war` file, which is really just a `.jar` with a `WEB-INF/web.xml` tree inside.
+- Java produces the `.jar` (Java Archive) artifact, which is a Zip file with some additional metadata files inside (`META-INF/MANIFEST.MF`). Similar is the `.war` file, which is really just a `.jar` with a `WEB-INF/web.xml` tree inside.
 - Similar but somewhat different is a Java `ear` (enterprise archive), which often contains [[dependency|internal dependencies]]
 - [NPM](https://www.npmjs.com/) packages
 - Platform-specific executable statically linked binaries produce by `golang` or `rust`
@@ -34,4 +38,4 @@ Many, possibly even most, languages produce some artifact as an intermediate for
 - [PyPi](https://pypi.org/) packages (`.egg`, etc)
 - `.zip` files of "stuff" produced from a build
 
-Numerous others also exist.  Most languages use some intermediate form unless they exclusively use [[tag release|tag releases]], which are themselves a [somewhat weaker] intermediate form.
+Numerous others also exist. Most languages use some intermediate form unless they exclusively use [[tag release|tag releases]], which are themselves a [somewhat weaker] intermediate form.

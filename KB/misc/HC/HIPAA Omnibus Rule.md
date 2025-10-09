@@ -1,8 +1,10 @@
 ---
-date updated: '2021-10-08T04:56:52-05:00'
 tags:
-  - '#HIPAA'
+  - 'HIPAA'
 
+title: HIPAA Omnibus Rule
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:35.829
 ---
 
 # HIPAA Omnibus Rule

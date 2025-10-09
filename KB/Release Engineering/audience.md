@@ -1,7 +1,13 @@
 ---
-date updated: '2021-04-28T09:12:23-05:00'
-aliases: [consumers]
-
+tags: []
+aliases:
+  - Audience
+  - consumers
+  - customers
+title: Audience
+linter-yaml-title-alias: Audience
+date created: 2025-10-04T08:48:41.000
+date modified: 2025-10-09T07:30:36.547
 ---
 
 # Audience
