@@ -21,8 +21,12 @@ The first camp of practitioners find tag release techniques to be a welcome brea
 
 ### This is Madness!
 
-The other camp feel like settling into just tagging software as a nominal release removes all the rigor that comes with the process.
+The other camp feel like settling into just tagging software as a nominal release removes all the rigor that comes with the process.  This isn't always true.  It's entirely possible to provide rigor around the tag releases.  The problem is that there's no production of any intermediate form.  Effectively speaking, nothing really ever prevents a tag from being created in nearly any [[source code]] management tool.
 
 ### The Third Camp
 
-There exists a third type of release practicitioner.  This actor is typically held hostage by some externally mandated practice that has inscrutable steps and obvious waste embedded in it.  Large corporations and governmental entities will frequently have such a person (or more usually, a team) in pace
+There exists a third type of release practitioner.  This actor is typically held hostage by some externally mandated practice that has inscrutable steps and obvious waste embedded in it.  Large corporations and governmental entities will frequently have such a person (or more usually, a team) in place to handle this.
+
+## Providing Arbitrage on the Weaknesses of Tag Releases
+
+Good question.  #TODO

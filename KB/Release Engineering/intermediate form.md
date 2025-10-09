@@ -1,13 +1,12 @@
 ---
-date updated: '2021-03-16T03:56:07-05:00'
-
+date updated: 2021-03-16T03:56:07-05:00
+tags:
+  - release-engineering
+  - dependencies
 ---
 
 # Intermediate Form Releases
 
-Tags: #release-engineering, #dependencies
-
-Intermediate form builds are those that produce an [[artifact]] in some intermediate form, generally out of a [[source code]] repository.  This process is usually the result of a formal [[build]].  If this is the case, every effort should be made to ensure that it remains the case.
 
 Most intermediate forms are best stored in some type of [[artifact repository]].  This allows the intermediate form to be used from a trusted location.
 
@@ -18,6 +17,8 @@ The intermediate form of an [[artifact]] is one that has had a [[build]] (and po
 Since it has gone through all the build [[gatekeeping]] operations, certain statements can be made about the intermediate form without forcing a repeat of the [[build]] that produced it -- it was produced by some build, probably detectable through a tag, and thus followed the criteria of _that tag's build_.
 
 These gatekeeping operations are the total of ascribable quality that can be stated about the artifact.  Assuming that they are [[build#Repeatable|repeatable]], they can be thought of as the beginning of an audit trail on the artifact's provenance and quality.
+
+It should be noted that the presence of an intermediate form is in no way indicative itself that any rigor was applied.  All such evidence is a combination of events, and documentation of the effects of those events, as well as the method of storage of the result.
 
 ## Examples
 
